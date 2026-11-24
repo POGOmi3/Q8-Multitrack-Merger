@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# FFmpeg (ビルド時に自動ダウンロードして同梱するため、リポジトリには入れない)
+ffmpeg.exe
+ffprobe.exe
+ffmpeg-*/
+
+# 一時ファイル・作業ファイル
+*.tmp
+*_concat.txt
+temp/
+tmp/
+
+# テスト用のメディアファイル（容量が大きいため入れない）
+*.MOV
+*.mov
+*.WAV
+*.wav
+*.mp4
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
